@@ -19,7 +19,7 @@ public class DataDrivenStepDef {
 		System.setProperty("webdriver.chrome.driver", "F:\\CucumberSetup\\chromedriver_win32\\chromedriver.exe");	
 		driver = new ChromeDriver();
 		driver.get("https://www.facebook.com/");
-		System.out.println("This is the URL");
+		System.out.println("This is the URL check");
 	}
 	
 	@When("^user enters \"([^\"]*)\" first name$")
